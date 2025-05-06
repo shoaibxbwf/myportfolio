@@ -20,7 +20,7 @@ function Home() {
                         a constant desire to learn and create impactful solutions.
                     </p>
                     <div className="flex flex-wrap gap-4 mb-6">
-                        <a href="/resume.pdf" className="button px-6 py-3 text-base rounded">
+                        <a href="assets/resume.pdf" className="button px-6 py-3 text-base rounded">
                             Download Resume
                         </a>
                         <a href="https://github.com/shoaibxbwf" target="_blank" rel="noopener noreferrer" 
