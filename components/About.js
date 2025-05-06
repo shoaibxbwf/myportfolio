@@ -6,7 +6,7 @@ function About() {
             {
                 degree: "Bachelor of Computer Applications (BCA)",
                 school: "Asansol Engineering College",
-                period: "2021 - Present",
+                period: "2023 - Present",
                 description: "Currently pursuing BCA with focus on computer science fundamentals and practical programming. Actively participating in technical workshops and coding competitions while maintaining excellent academic performance.",
                 highlights: [
                     "Full Stack Web Development",
@@ -18,7 +18,7 @@ function About() {
             {
                 degree: "10+2 Education – Science Stream",
                 school: "Narayana School, Asansol",
-                period: "2017 - 2021",
+                period: "2016 - 2023",
                 description: "Completed secondary and senior secondary education with focus on PCM and Computer Science. Gained strong analytical and problem-solving skills, participated in science exhibitions, and developed keen interest in technology and innovation.",
                 highlights: [
                     "Core PCM Concepts",
