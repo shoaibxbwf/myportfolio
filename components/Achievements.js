@@ -28,7 +28,7 @@ function Achievements() {
                 certificate: "assets/forage.pdf"
             },
             {
-                title: "LitFest Contesr",
+                title: "LitFest Contest",
                 organization: "Rhetoric Group - College",
                 description: "Distinguished participant in the college litfest contest organized by the rhetoric group. Demonstrated exceptional storytelling abilities and creative writing skills. Crafted compelling narratives that engaged audiences and received positive recognition. Developed and presented original content under time constraints, showcasing adaptability and creativity. Enhanced communication skills through participation in various writing workshops and competitions.",
                 skills: [
