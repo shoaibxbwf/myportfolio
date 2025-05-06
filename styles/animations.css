@@ -1,0 +1,59 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s ease forwards;
+}
+
+.name-animation {
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #64ffda;
+    animation: typewriter 3s steps(30) forwards,
+               blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
+.floating {
+    animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0% { transform: translate(0, 0px); }
+    50% { transform: translate(0, 15px); }
+    100% { transform: translate(0, -0px); }
+}
+
+.scale-up {
+    animation: scaleUp 0.5s ease forwards;
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
